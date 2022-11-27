@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Инфо</title>
+</head>
+<body>
+
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="./image/pngegg.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html">Главная</a>
+            <a href="./about.html" class="active">Инфо</a>
+            <a href="./menu.html" >Меню</a>
+            <a href="./products.html">Продукты</a>
+            <a href="./review.html">Обзор</a>
+            <a href="./contact.html">Контакты</a>
+            <a href="./blog.html">Блог</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <a href="./search.html"><i class="fas fa-search"></i></a> 
+
+            </button>
+            <button id="cart-btn">
+                <a href="./cart.html"><i class="fas fa-shopping-cart"></i></a> 
+
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        
+    </header>
+    <section class="about" id="about">
+        <h1 class="heading">О <span>нас</span> </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./image/pngwing.com (7).png" alt="">
+            </div>
+            <div class="content">
+                <h3>В чем секрет рецепта наших бургеров?</h3>
+                <div class="paragraph">
+                    <p>Тщательный подбор свежих и натуральных продуктов.</p>
+                    <p>Контроль качества готовки.</p>
+                    <p>Любовь к своей работе.</p>
+                </div>
+                    <a href="#" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Найти">
+            <button class="btn btn-primary">Поиск</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Главная</a>
+            <a href="#about">Инфо</a>
+            <a href="#menu">Меню</a>
+            <a href="#products">Продукты</a>
+            <a href="#review">Обзор</a>
+            <a href="#contact">Контакты</a>
+            <a href="#blog">Блог</a>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>

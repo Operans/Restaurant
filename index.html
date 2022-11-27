@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-sккалe=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./jquery-3.5.1.min.js"></script>
+    <title>Главная</title>
+</head>
+<body>
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="./image/pngegg.png" alt="logo">
+        </a>
+        <nav class="navbar" id="navbar">
+            <a href="./index.html" class="active">Главная</a>
+            <a href="./about.html">Инфо</a>
+            <a href="./menu.html" >Меню</a>
+            <a href="./products.html">Продукты</a>
+            <a href="./review.html">Обзор</a>
+            <a href="./contact.html">Контакты</a>
+            <a href="./blog.html">Блог</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <a href="./search.html"><i class="fas fa-search"></i></a> 
+
+            </button>
+            <button id="cart-btn">
+                <a href="./cart.html"><i class="fas fa-shopping-cart"></i></a> 
+
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+        <h3>Быстрая доставка еды</h3>
+        <p>Мы доставим еду в два счета </p>
+        <a href="./cart.html" class="btn" >Заказать сейчас</a>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <h1 class="heading">Наше <span>меню</span></h1>
+        <div class="box-container">
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/pngwing.com.png" alt="">
+                    <span class="menu-category">Пицца</span>
+                    <h3>6 Мини пицц</h3>
+                    <div class="price">1040.99с <span>119.99с</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Добавить в корзину</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/pngwing.com (2).png" alt="">
+                    <span class="menu-category">Бургер</span>
+                    <h3>5 Мини Бургеров</h3>
+                    <div class="price">990.99с <span>1050.99с</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Добавить в корзину</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/pngwing.com (1).png" alt="">
+                    <span class="menu-category">Пицца</span>
+                    <h3>2 Смешанные пиццы</h3>
+                    <div class="price">490.99с <span>590.99с</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Добавить в корзину</a>
+                </div>
+            </div>
+            <div class="box">
+
+                <div class="box-head">
+                    <img src="./image/pngwing.com (3).png" alt="">
+                    <span class="menu-category">Бургер</span>
+                    <h3>3 Мясных бургера</h3>
+                    <div class="price">790.99с <span>990.99с</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Добавить в корзину</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <h1 class="heading">Наши <span>Продукты</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Мини бургер</span>
+                    <a href="#" class="name">Бургер с беконом</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (6).png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">60.00с</b>
+                        <span class="amount">110гр/ 300 ккал</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">Сырный Бургер</span>
+                    <a href="#" class="name">Сырный Бургер</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (4).png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">120.00с</b>
+                        <span class="amount">140гр / 2500 ккал</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <span class="title">двойной бругер</span>
+                    <a href="#" class="name">двойной бругер</a>
+                </div>
+                <div class="image">
+                    <img src="./image/pngwing.com (5).png" alt="">
+                </div>
+                <div class="box-bottom">
+                    <div class="info">
+                        <b class="price">240.00с</b>
+                        <span class="amount">440гр / 600 ккал</span>
+                    </div>
+                    <div class="product-btn">
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading">О <span>нас</span> </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="./image/pngwing.com (7).png" alt="">
+            </div>
+            <div class="content">
+                <h3>В чем секрет рецепта наших бургеров?</h3>
+                <div class="paragraph">
+                    <p>Тщательный подбор свежих и натуральных продуктов.</p>
+                    <p>Контроль качества готовки.</p>
+                    <p>Любовь к своей работе.</p>
+                </div>
+                    <a href="#" class="btn">Узнать больше</a>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h1 class="heading">Отзывы<span>клиентов</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./image/pngwing.com (8).png" alt="quote">
+                <p> Очень понравились ваши бургеры, наелись всей семьей. Будем заказывать и дальше!</p>
+                <img src="./image/pngwing.com (9).png" alt="customer-avatar" class="user">
+                <h3>Ким Вячеслав</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pngwing.com (8).png" alt="quote">
+                <p>Быстрая доставка, прошло не больше 15ти минута а курьер уже у двери. Однозначно 5 звезд!</p>
+                <img src="./image/pngwing.com (10).png" alt="customer-avatar" class="user">
+                <h3>Рапилбекова акылай</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./image/pngwing.com (8).png" alt="quote">
+                <p>Согласен с тем, что доставка у них на уровне. Особенно понравился двойной бургер!</p>
+                <img src="./image/pngwing.com (11).png" alt="customer-avatar" class="user">
+                <h3>Ким Дженни</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="contact" id="contact">
+        <h1 class="heading">Свяжитесь с  <span>нами</span> </h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d983.3235940970079!2d8.540719273659763!3d47.3713194174677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a00aa1e1d17%3A0x278f576acdd580f5!2sStorchen%20Z%C3%BCrich%20-%20Lifestyle%20Boutique%20Hotel!5e0!3m2!1sde!2sch!4v1658505945506!5m2!1sde!2sch" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <h3>связаться с нами</h3>
+                <div class="inputBox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Имя">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Почта">
+                </div>
+                <div class="inputBox">
+                    <i class="fas fa-phone"></i>
+                    <input type="number" placeholder="номер телефона">
+                </div>
+                <input type="submit" class="btn" value="связаться сейчас">
+            </form>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+        <h1 class="heading">наш <span>блог</span> </h1>
+        <div class="box-container">
+            <div class="box-full">
+                <div class="image">
+                    <img src="./image/delicious-burger-on-wooden-board-2022-03-04-05-58-25-utc.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">как делать бургеры</a>
+                    <span>Админ / 10 Май, 2020</span>
+                    <p>Главный ингридиент наших бургеров, это любовь. Я уверен, что у вас всё получится, приложите вы немного любви</p>
+                    <a href="#" class="btn">Читать больше</a>
+                </div>
+            </div>
+            <div class="box-full">
+                <div class="image">
+                    <img src="./image/pizza-photo.jpg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">как делать пиццу</a>
+                    <span>Админ / 26 Декабрь, 2021</span>
+                    <p>Для пиццы необходимо хорошо подготовить тесто, без теста пицца может получиться не вкусной.</p>
+                    <a href="#" class="btn">Читать больше</a>
+                </div>
+            </div>
+            <div class="box-full">
+                <div class="image">
+                    <img src="./image/hot-dog-photo.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">как делать хот-доги</a>
+                    <span>Админ / 4 Июнь, 2022</span>
+                    <p>Хот-дог довольно прост в приготовлении, вам нужны сосика и хлеб. Хлеб должен быть свежий для полного ощущения вкуса</p>
+                    <a href="#" class="btn">Читать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="Найти">
+            <button class="btn btn-primary">Поиск</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">Главная</a>
+            <a href="#about">Инфо</a>
+            <a href="#menu">Меню</a>
+            <a href="#products">Продукты</a>
+            <a href="#review">Обзор</a>
+            <a href="#contact">Контакты</a>
+            <a href="#blog">Блог</a>
+        </div>
+    </section>
+
+<script src="./main.js"></script>
+</body>
+</html>
